@@ -1,0 +1,4 @@
+a = 4;
+b = 9;
+s = ((1/6*Math.sqrt(a)+(1/3*Math.sqrt(b)))**2);
+console.log(s);
