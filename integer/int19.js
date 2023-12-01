@@ -1,13 +1,13 @@
 // let a = 230; 
 let a = 241; 
-let firstDigit = Math.floor(a / 100); // Birinchi raqam
-let secondDigit = Math.floor((a / 10) % 10); // Ikkinchi raqam
+let firstDigit = Math.floor(a / 100);
+let secondDigit = Math.floor((a / 10) % 10);
 let thirdDigit = a % 10; // Uchinchi raqam
 
-// Raqamlarni yig'indisi
+
 let sumOfDigits = firstDigit + secondDigit + thirdDigit;
 
-// Raqamlarni ko'paytmasi
+
 let productOfDigits = firstDigit * secondDigit * thirdDigit;
 
 console.log("Raqamlari yig'indisi: " + sumOfDigits);
